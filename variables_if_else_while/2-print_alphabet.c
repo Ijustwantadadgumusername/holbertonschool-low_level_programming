@@ -1,14 +1,18 @@
 #include <stdio.h>
 
+/*
+ * main - print alphabet
+ *
+ * Return: Always (Success)
+ */
+
+int main(void)
 {
-	char alphabet;
+	char j;
 
-	for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
+	for (c = 'a'; c <= 'z'; j++)
+		putchar(j);
 
-	{
-		putchar(alphabet);
-	}
-
-	putchar('\n');
+	putchar('/n');
 	return (0);
 }
