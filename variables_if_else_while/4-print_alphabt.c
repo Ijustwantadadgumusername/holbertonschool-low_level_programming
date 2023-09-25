@@ -4,7 +4,10 @@
 
 /**
  * main - Entry point
- * Return: Always 0 (Success)
+ * @void: Null value
+ *
+ * Description: Print alabet execpt e q
+ * Return: Zero value
  */
 
 int main(void)
