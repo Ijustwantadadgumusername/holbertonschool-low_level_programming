@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
- * main - print alphabet
+/**
+ * main - Entry point
  *
- * Return: Always (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -12,7 +12,6 @@ int main(void)
 
 	for (j = 'a'; j <= 'z'; j++)
 		putchar(j);
-
 	putchar('/n');
 	return (0);
 }
