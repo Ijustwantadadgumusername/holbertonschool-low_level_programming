@@ -1,4 +1,4 @@
-#include 'main.h'
+#include "main.h"
 
 /**
  * print_alphabet_x10 - take a guess
@@ -12,7 +12,7 @@ void print_alphabet_x10(void)
 
 	while (i <= 9)
 	{
-	
+
 	for (alphabetx10 = 'a'; alphabetx10 <= 'z'; alphabetx10++)
 	{
 		_putchar(alphabetx10);
