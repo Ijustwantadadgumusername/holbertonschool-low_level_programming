@@ -4,7 +4,7 @@
  * main - FIZZBUZZ
  * Return: returns nothing
  */
-int main(0)
+int main('0')
 {
 	int f;
 
