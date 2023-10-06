@@ -3,7 +3,7 @@
  * times_table - prints the times table
  * Return: returns 0
  */
-void times_table(void);
+void times_table(void)
 {
 	int n, t, e;
 
