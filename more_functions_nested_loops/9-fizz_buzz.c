@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - FIZZBUZZ
  * Return: returns nothing
@@ -16,7 +17,7 @@ int main(void)
 		else if (f % 5 == 0)
 			printf("Buzz");
 		else
-			printf("%d", n);
+			printf("%d", f);
 
 		if (f < 100)
 			printf(" ");
