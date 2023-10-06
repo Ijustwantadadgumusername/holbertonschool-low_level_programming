@@ -22,7 +22,7 @@ void print_triangle(int size)
 			{
 				_putchar(' ');
 			}
-			for (p = 1; p <= r; h++)
+			for (p = 1; p <= r; p++)
 			{
 				_putchar('#');
 			}
