@@ -4,7 +4,7 @@
  * main - FIZZBUZZ
  * Return: returns nothing
  */
-int main('0')
+int main(void)
 {
 	int f;
 
@@ -24,4 +24,5 @@ int main('0')
 		else
 			printf("\n");
 	}
+	return (0);
 }
