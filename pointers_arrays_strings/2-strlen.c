@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 #include <stdio.h>
 /**
  * _strlen - string length
@@ -10,5 +11,8 @@ int _strlen(char *s)
 	int u = 33;
 
 
-	strlen(u)
+	strlen(u);
+
+	return (u);
+
 }
