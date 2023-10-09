@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strlen - string length
  * @s: integer used
@@ -6,5 +7,8 @@
  */
 int _strlen(char *s)
 {
-	strlen(p)
+	int u = 33;
+
+
+	strlen(u)
 }
