@@ -20,7 +20,7 @@ void reverse_array(int *a, int n)
 		z++;
 	}
 
-	for (c = 0; c < i / 2; c++)
+	for (c = 0; c < b / 2; c++)
 	{
 		def = a[c];
 		a[c] = *z;
