@@ -4,7 +4,7 @@
  * @str: integer used
  * Return: returns void
  */
-void puts_half(cahr *str)
+void puts_half(char *str)
 {
 	int a = 0;
 	int b;
