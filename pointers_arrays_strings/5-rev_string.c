@@ -6,8 +6,11 @@
  */
 void rev_string(char *s)
 {
-	int a, b, c;
-	char *d, sux;
+	int a;
+	int b;
+	int c;
+	char *d;
+	char sux;
 
 	d = s;
 
