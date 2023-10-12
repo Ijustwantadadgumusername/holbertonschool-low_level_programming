@@ -6,20 +6,21 @@
  */
 int _sqrt_recursion(int n)
 {
-	int b;
-	int e;
-	int m;
-
-	if (b <= e)
-	{
-		m = (b + e) / 2;
-
-		if ((m * m <= n)
-				&& ((m + 1) * (m + 1) > n))
-		{
-			return (m);
-		}
-	}
-	if (n > m)
+	if (n == 0 || n == 1)
+		return (n);
+	return (_sqrt(0, n));
+}
+/**
+ * _sqrt - returns the square root of a number
+ * @n: test number
+ * @x: squared number
+ * Return: returns the suare root of n
+ */
+int _sqrt(int n, int x)
+{
+	if (n > x / 2)
 		return (-1);
+	else if (n * n == x)
+		return (n);
+	return (_sqrt(n + 1, x));
 }
