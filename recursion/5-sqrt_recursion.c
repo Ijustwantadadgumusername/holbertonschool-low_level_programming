@@ -8,10 +8,11 @@ int _sqrt_recursion(int n)
 {
 	int b;
 	int e;
+	int m;
 
 	if (b <= e)
 	{
-		int m = (b + e) / 2;
+		m = (b + e) / 2;
 
 		if ((m * m <= n)
 				&& ((m + 1) * (m + 1) > n))
