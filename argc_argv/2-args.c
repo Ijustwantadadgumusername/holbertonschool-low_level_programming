@@ -14,4 +14,4 @@ int main(int argc, char *argv[])
 		printf("%s\n", argv[x]);
 	}
 	return (0);
-}				
+}
