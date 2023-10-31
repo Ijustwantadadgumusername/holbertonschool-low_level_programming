@@ -9,7 +9,7 @@
 void print_all(const char * const format, ...)
 {
 	va_list vl;
-	cahr *string;
+	char *string;
 	int i;
 
 	i = 0;
@@ -25,7 +25,7 @@ void print_all(const char * const format, ...)
 				printf("%f", va_arg(vl, double));
 				break;
 			case 'c':
-				printf("%c", (char) va_arg(vl, char *));
+				printf("%c", (char) va_arg(vl, int));
 				break;
 			case 's':
 				string = va_arg(vl, char *);
